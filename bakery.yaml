@@ -1,0 +1,8 @@
+commit: HEAD
+process_files: [ElsieSwashCaps-Regular.ttf.ttx, ElsieSwashCaps-Black.ttf.ttx, src/ElsieSwashCaps-Regular.otf.ttx,
+  src/ElsieSwashCaps-Black.otf.ttx, src/ElsieSwashCaps-Regular-backup-fonttools-prep-gasp-TTF.sfd,
+  src/ElsieSwashCaps-Regular-TTF.sfd, src/ElsieSwashCaps-Black-backup-fonttools-prep-gasp-TTF.sfd,
+  src/ElsieSwashCaps-Black-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
